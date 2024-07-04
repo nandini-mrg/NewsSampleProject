@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="typeface" format="enum">
+            <enum name="CustomBlack" value="0" />
+            <enum name="CustomBlackItalic" value="1" />
+            <enum name="CustomBold" value="2" />
+            <enum name="CustomBoldItalic" value="3" />
+            <enum name="CustomBoldCondensed" value="4" />
+            <enum name="CustomBoldCondensedItalic" value="5" />
+            <enum name="CustomCondensed" value="6" />
+            <enum name="CustomCondensedItalic" value="7" />
+            <enum name="CustomItalic" value="8" />
+            <enum name="CustomLight" value="9" />
+            <enum name="CustomLightItalic" value="10" />
+            <enum name="CustomMedium" value="11" />
+            <enum name="CustomMediumItalic" value="12" />
+            <enum name="CustomRegular" value="13" />
+            <enum name="CustomThin" value="14" />
+            <enum name="CustomThinItalic" value="15" />
+        </attr>
+    </declare-styleable>
+
+</resources>

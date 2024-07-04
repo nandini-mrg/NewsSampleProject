@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/articleImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <com.example.newsproject.data.util.CustomTextView
+        android:id="@+id/articleTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        app:typeface="CustomRegular"
+        android:textAllCaps="true"
+        android:textColor="@color/black_4e"
+        android:paddingTop="8dp"/>
+
+    <com.example.newsproject.data.util.CustomTextView
+        android:id="@+id/articleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        app:typeface="CustomRegular"
+        android:textColor="@color/black" />
+
+    <com.example.newsproject.data.util.CustomTextView
+        android:id="@+id/articleDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:typeface="CustomRegular"
+        android:textSize="14sp"
+        android:paddingTop="4dp"/>
+</LinearLayout>
